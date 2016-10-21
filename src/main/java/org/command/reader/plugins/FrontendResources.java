@@ -33,7 +33,7 @@ import java.util.Map;
  * @goal touch
  * @phase process-sources
  */
-@Mojo(name = "frontend-resources")
+@Mojo(name = "command-reader")
 public class FrontendResources extends AbstractMojo {
     public static final String errorFile = "commandErrorFile.txt";
     public static final String outputFile = "commandOutputFile.json";

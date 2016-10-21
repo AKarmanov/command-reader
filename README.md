@@ -23,7 +23,7 @@ To use it in your maven project add the following to your pom.xml
         <execution>
             <phase>generate-resources</phase>
             <goals>
-                <goal>frontend-resources</goal>
+                <goal>command-reader</goal>
             </goals>
         </execution>
     </executions>
